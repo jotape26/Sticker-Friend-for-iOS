@@ -11,7 +11,6 @@
 		FAA81AA6219B9CF000781299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AA5219B9CF000781299 /* AppDelegate.swift */; };
 		FAA81AA8219B9CF100781299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AA7219B9CF100781299 /* ViewController.swift */; };
 		FAA81AAB219B9CF100781299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AA9219B9CF100781299 /* Main.storyboard */; };
-		FAA81AAD219B9CF200781299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AAC219B9CF200781299 /* Assets.xcassets */; };
 		FAA81AB0219B9CF200781299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AAE219B9CF200781299 /* LaunchScreen.storyboard */; };
 		FAA81AB9219B9D3500781299 /* StickerPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AB7219B9D3500781299 /* StickerPack.swift */; };
 		FAA81ABA219B9D3500781299 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AB8219B9D3500781299 /* Sticker.swift */; };
@@ -20,6 +19,10 @@
 		FAA81AC0219B9D7400781299 /* StickerPackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81ABF219B9D7400781299 /* StickerPackManager.swift */; };
 		FAA81AC2219B9DB900781299 /* Interoperability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AC1219B9DB900781299 /* Interoperability.swift */; };
 		FAA81AC4219B9DE100781299 /* WebPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AC3219B9DE100781299 /* WebPManager.swift */; };
+		FAA81AF2219BA67000781299 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AF0219BA67000781299 /* StickerCell.swift */; };
+		FAA81AF3219BA67000781299 /* StickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AF1219BA67000781299 /* StickerCell.xib */; };
+		FAA81AF5219BA7DF00781299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AF4219BA7DF00781299 /* Assets.xcassets */; };
+		FAA81AF7219C48AE00781299 /* Teste.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AF6219C48AD00781299 /* Teste.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +32,6 @@
 		FAA81AA5219B9CF000781299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA81AA7219B9CF100781299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAA81AAA219B9CF100781299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAA81AAC219B9CF200781299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA81AAF219B9CF200781299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA81AB1219B9CF300781299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA81AB7219B9D3500781299 /* StickerPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPack.swift; sourceTree = "<group>"; };
@@ -39,7 +41,10 @@
 		FAA81ABF219B9D7400781299 /* StickerPackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPackManager.swift; sourceTree = "<group>"; };
 		FAA81AC1219B9DB900781299 /* Interoperability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interoperability.swift; sourceTree = "<group>"; };
 		FAA81AC3219B9DE100781299 /* WebPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
-		FAA81AC9219B9E7D00781299 /* Sticker Friend for iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sticker Friend for iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAA81AF0219BA67000781299 /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		FAA81AF1219BA67000781299 /* StickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickerCell.xib; sourceTree = "<group>"; };
+		FAA81AF4219BA7DF00781299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA81AF6219C48AD00781299 /* Teste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teste.png; sourceTree = "<group>"; };
 		FC986D07ADD74FB5725E9B2F /* Pods-Sticker Friend for iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sticker Friend for iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sticker Friend for iOS/Pods-Sticker Friend for iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,14 +98,15 @@
 		FAA81AA4219B9CF000781299 /* Sticker Friend for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FAA81AED219BA5EE00781299 /* Model */,
 				FAA81AEC219BA4C800781299 /* WhatsApp Files */,
 				FAA81AA5219B9CF000781299 /* AppDelegate.swift */,
+				FAA81AF4219BA7DF00781299 /* Assets.xcassets */,
 				FAA81AA7219B9CF100781299 /* ViewController.swift */,
 				FAA81AA9219B9CF100781299 /* Main.storyboard */,
-				FAA81AAC219B9CF200781299 /* Assets.xcassets */,
+				FAA81AF6219C48AD00781299 /* Teste.png */,
 				FAA81AAE219B9CF200781299 /* LaunchScreen.storyboard */,
 				FAA81AB1219B9CF300781299 /* Info.plist */,
-				FAA81AC9219B9E7D00781299 /* Sticker Friend for iOS-Bridging-Header.h */,
 			);
 			path = "Sticker Friend for iOS";
 			sourceTree = "<group>";
@@ -117,6 +123,15 @@
 				FAA81AB7219B9D3500781299 /* StickerPack.swift */,
 			);
 			path = "WhatsApp Files";
+			sourceTree = "<group>";
+		};
+		FAA81AED219BA5EE00781299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81AF0219BA67000781299 /* StickerCell.swift */,
+				FAA81AF1219BA67000781299 /* StickerCell.xib */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA81AB0219B9CF200781299 /* LaunchScreen.storyboard in Resources */,
-				FAA81AAD219B9CF200781299 /* Assets.xcassets in Resources */,
+				FAA81AF7219C48AE00781299 /* Teste.png in Resources */,
+				FAA81AF3219BA67000781299 /* StickerCell.xib in Resources */,
+				FAA81AF5219BA7DF00781299 /* Assets.xcassets in Resources */,
 				FAA81AAB219B9CF100781299 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +260,7 @@
 				FAA81ABD219B9D5200781299 /* Limits.swift in Sources */,
 				FAA81AB9219B9D3500781299 /* StickerPack.swift in Sources */,
 				FAA81ABA219B9D3500781299 /* Sticker.swift in Sources */,
+				FAA81AF2219BA67000781299 /* StickerCell.swift in Sources */,
 				FAA81AA8219B9CF100781299 /* ViewController.swift in Sources */,
 				FAA81AC0219B9D7400781299 /* StickerPackManager.swift in Sources */,
 				FAA81AA6219B9CF000781299 /* AppDelegate.swift in Sources */,
@@ -405,7 +423,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jpapps.stickerfriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Sticker Friend for iOS/Sticker Friend for iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -427,7 +444,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jpapps.stickerfriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Sticker Friend for iOS/Sticker Friend for iOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
