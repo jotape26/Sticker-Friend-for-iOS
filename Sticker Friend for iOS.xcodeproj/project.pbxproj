@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC25E516476BB8FEF95A032F /* Pods_Sticker_Friend_for_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159FE88A7F172657FF9F6763 /* Pods_Sticker_Friend_for_iOS.framework */; };
 		FAA81AA6219B9CF000781299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AA5219B9CF000781299 /* AppDelegate.swift */; };
 		FAA81AA8219B9CF100781299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AA7219B9CF100781299 /* ViewController.swift */; };
 		FAA81AAB219B9CF100781299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AA9219B9CF100781299 /* Main.storyboard */; };
 		FAA81AAD219B9CF200781299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AAC219B9CF200781299 /* Assets.xcassets */; };
 		FAA81AB0219B9CF200781299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA81AAE219B9CF200781299 /* LaunchScreen.storyboard */; };
+		FAA81AB9219B9D3500781299 /* StickerPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AB7219B9D3500781299 /* StickerPack.swift */; };
+		FAA81ABA219B9D3500781299 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AB8219B9D3500781299 /* Sticker.swift */; };
+		FAA81ABD219B9D5200781299 /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81ABB219B9D5200781299 /* Limits.swift */; };
+		FAA81ABE219B9D5200781299 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81ABC219B9D5200781299 /* ImageData.swift */; };
+		FAA81AC0219B9D7400781299 /* StickerPackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81ABF219B9D7400781299 /* StickerPackManager.swift */; };
+		FAA81AC2219B9DB900781299 /* Interoperability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AC1219B9DB900781299 /* Interoperability.swift */; };
+		FAA81AC4219B9DE100781299 /* WebPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81AC3219B9DE100781299 /* WebPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		159FE88A7F172657FF9F6763 /* Pods_Sticker_Friend_for_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sticker_Friend_for_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6B0034A7CA54E0AAF75C4A /* Pods-Sticker Friend for iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sticker Friend for iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sticker Friend for iOS/Pods-Sticker Friend for iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FAA81AA2219B9CF000781299 /* Sticker Friend for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sticker Friend for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA81AA5219B9CF000781299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA81AA7219B9CF100781299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,15 @@
 		FAA81AAC219B9CF200781299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA81AAF219B9CF200781299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA81AB1219B9CF300781299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA81AB7219B9D3500781299 /* StickerPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPack.swift; sourceTree = "<group>"; };
+		FAA81AB8219B9D3500781299 /* Sticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		FAA81ABB219B9D5200781299 /* Limits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
+		FAA81ABC219B9D5200781299 /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		FAA81ABF219B9D7400781299 /* StickerPackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPackManager.swift; sourceTree = "<group>"; };
+		FAA81AC1219B9DB900781299 /* Interoperability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interoperability.swift; sourceTree = "<group>"; };
+		FAA81AC3219B9DE100781299 /* WebPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
+		FAA81AC9219B9E7D00781299 /* Sticker Friend for iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sticker Friend for iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC986D07ADD74FB5725E9B2F /* Pods-Sticker Friend for iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sticker Friend for iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sticker Friend for iOS/Pods-Sticker Friend for iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC25E516476BB8FEF95A032F /* Pods_Sticker_Friend_for_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		676881C492202C9F8917AEEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159FE88A7F172657FF9F6763 /* Pods_Sticker_Friend_for_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5B7F03B31619EE41B1C078 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C6B0034A7CA54E0AAF75C4A /* Pods-Sticker Friend for iOS.debug.xcconfig */,
+				FC986D07ADD74FB5725E9B2F /* Pods-Sticker Friend for iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FAA81A99219B9CF000781299 = {
 			isa = PBXGroup;
 			children = (
 				FAA81AA4219B9CF000781299 /* Sticker Friend for iOS */,
 				FAA81AA3219B9CF000781299 /* Products */,
+				DF5B7F03B31619EE41B1C078 /* Pods */,
+				676881C492202C9F8917AEEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,30 @@
 		FAA81AA4219B9CF000781299 /* Sticker Friend for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FAA81AEC219BA4C800781299 /* WhatsApp Files */,
 				FAA81AA5219B9CF000781299 /* AppDelegate.swift */,
 				FAA81AA7219B9CF100781299 /* ViewController.swift */,
 				FAA81AA9219B9CF100781299 /* Main.storyboard */,
 				FAA81AAC219B9CF200781299 /* Assets.xcassets */,
 				FAA81AAE219B9CF200781299 /* LaunchScreen.storyboard */,
 				FAA81AB1219B9CF300781299 /* Info.plist */,
+				FAA81AC9219B9E7D00781299 /* Sticker Friend for iOS-Bridging-Header.h */,
 			);
 			path = "Sticker Friend for iOS";
+			sourceTree = "<group>";
+		};
+		FAA81AEC219BA4C800781299 /* WhatsApp Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81AB8219B9D3500781299 /* Sticker.swift */,
+				FAA81AC1219B9DB900781299 /* Interoperability.swift */,
+				FAA81ABC219B9D5200781299 /* ImageData.swift */,
+				FAA81ABF219B9D7400781299 /* StickerPackManager.swift */,
+				FAA81AC3219B9DE100781299 /* WebPManager.swift */,
+				FAA81ABB219B9D5200781299 /* Limits.swift */,
+				FAA81AB7219B9D3500781299 /* StickerPack.swift */,
+			);
+			path = "WhatsApp Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA81AB4219B9CF300781299 /* Build configuration list for PBXNativeTarget "Sticker Friend for iOS" */;
 			buildPhases = (
+				B3D43DCBBAC0C6502B59A586 /* [CP] Check Pods Manifest.lock */,
 				FAA81A9E219B9CF000781299 /* Sources */,
 				FAA81A9F219B9CF000781299 /* Frameworks */,
 				FAA81AA0219B9CF000781299 /* Resources */,
+				56550E7D57E604768F9CDD22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +153,7 @@
 				TargetAttributes = {
 					FAA81AA1219B9CF000781299 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,13 +188,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56550E7D57E604768F9CDD22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sticker Friend for iOS/Pods-Sticker Friend for iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sticker Friend for iOS/Pods-Sticker Friend for iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D43DCBBAC0C6502B59A586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sticker Friend for iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAA81A9E219B9CF000781299 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA81ABD219B9D5200781299 /* Limits.swift in Sources */,
+				FAA81AB9219B9D3500781299 /* StickerPack.swift in Sources */,
+				FAA81ABA219B9D3500781299 /* Sticker.swift in Sources */,
 				FAA81AA8219B9CF100781299 /* ViewController.swift in Sources */,
+				FAA81AC0219B9D7400781299 /* StickerPackManager.swift in Sources */,
 				FAA81AA6219B9CF000781299 /* AppDelegate.swift in Sources */,
+				FAA81ABE219B9D5200781299 /* ImageData.swift in Sources */,
+				FAA81AC4219B9DE100781299 /* WebPManager.swift in Sources */,
+				FAA81AC2219B9DB900781299 /* Interoperability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +392,10 @@
 		};
 		FAA81AB5219B9CF300781299 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6B0034A7CA54E0AAF75C4A /* Pods-Sticker Friend for iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EMX5WZVKLF;
 				INFOPLIST_FILE = "Sticker Friend for iOS/Info.plist";
@@ -289,8 +403,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jpapps.Sticker-Friend-for-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpapps.stickerfriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sticker Friend for iOS/Sticker Friend for iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +414,10 @@
 		};
 		FAA81AB6219B9CF300781299 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC986D07ADD74FB5725E9B2F /* Pods-Sticker Friend for iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EMX5WZVKLF;
 				INFOPLIST_FILE = "Sticker Friend for iOS/Info.plist";
@@ -307,8 +425,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jpapps.Sticker-Friend-for-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpapps.stickerfriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sticker Friend for iOS/Sticker Friend for iOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
