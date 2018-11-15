@@ -1,47 +1,44 @@
 //
-//  ViewController.swift
+//  CreateViewController.swift
 //  Sticker Friend for iOS
 //
-//  Created by João Leite on 13/11/18.
+//  Created by João Leite on 14/11/18.
 //  Copyright © 2018 João Leite. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
-    @IBOutlet weak var tableView: UITableView!
-    var pack: StickerPack?
+class CreateViewController: UIViewController {
     
+    var callback : ((StickerPack)->())?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        var imageData = UIImage(named: "Teste.png")
-        
+        // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        sendBackNewPack()
+    }
+
+    func sendBackNewPack(){
+        var imageData = UIImage(named: "sticker1.png")
         imageData = resizeImage(image: imageData!, targetSize: CGSize(width: 96.0, height: 96.0))
-        
         let data = imageData!.pngData()!
-        
         do {
-            try pack = StickerPack.init(identifier: "test", name: "Pacote de Teste", publisher: "João Leite", trayImagePNGData: data, publisherWebsite: nil, privacyPolicyWebsite: nil, licenseAgreementWebsite: nil)
+            let pack = try StickerPack.init(identifier: "test", name: "Pacote que veio da tela criar", publisher: "João Leite", trayImagePNGData: data, publisherWebsite: nil, privacyPolicyWebsite: nil, licenseAgreementWebsite: nil)
             
-            self.tableView.reloadData()
+            try pack.addSticker(contentsOfFile: "sticker1.png", emojis: nil)
+            try pack.addSticker(contentsOfFile: "sticker2.png", emojis: nil)
+            try pack.addSticker(contentsOfFile: "sticker3.png", emojis: nil)
+            try pack.addSticker(contentsOfFile: "sticker4.png", emojis: nil)
+            try pack.addSticker(contentsOfFile: "sticker5.png", emojis: nil)
+            
+            callback!(pack)
         } catch {
             // TODO - Show error message to user in the future.
             print(error)
         }
-        
-        
-        
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
-        registerTableViewCells()
-    }
-    
-    func registerTableViewCells(){
-        let stickerCell = UINib(nibName: "StickerCell", bundle: nil)
-        self.tableView.register(stickerCell, forCellReuseIdentifier: "StickerCell")
     }
     
     func resizeImage(image: UIImage, targetSize: CGSize) -> UIImage {
@@ -69,21 +66,4 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return newImage!
     }
-
-
 }
-
-// MARK -TableViewDataSource Methods
-extension ViewController {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "StickerCell") as? StickerCell
-        cell?.txtTitle.text = pack?.name
-        cell?.txtAuthor.text = pack?.publisher
-        return cell!
-    }
-}
-
